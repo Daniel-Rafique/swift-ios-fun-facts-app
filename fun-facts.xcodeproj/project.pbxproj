@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61A9564E1A3DDD0700C79903 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A9564D1A3DDD0700C79903 /* ColorWheel.swift */; };
+		61E449211A3C9819008B8938 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E449201A3C9819008B8938 /* FactBook.swift */; };
 		61EA8C8F1A2F47760086F125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EA8C8E1A2F47760086F125 /* AppDelegate.swift */; };
 		61EA8C921A2F47760086F125 /* fun_facts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61EA8C901A2F47760086F125 /* fun_facts.xcdatamodeld */; };
 		61EA8C941A2F47760086F125 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EA8C931A2F47760086F125 /* ViewController.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61A9564D1A3DDD0700C79903 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
+		61E449201A3C9819008B8938 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 		61EA8C891A2F47760086F125 /* fun-facts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fun-facts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61EA8C8D1A2F47760086F125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61EA8C8E1A2F47760086F125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +42,7 @@
 		61EA8CA11A2F47760086F125 /* fun-factsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fun-factsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61EA8CA61A2F47760086F125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61EA8CA71A2F47760086F125 /* fun_factsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fun_factsTests.swift; sourceTree = "<group>"; };
+		61EA8CB11A2F49090086F125 /* Scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Scratchpad.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +69,7 @@
 				61EA8C8B1A2F47760086F125 /* fun-facts */,
 				61EA8CA41A2F47760086F125 /* fun-factsTests */,
 				61EA8C8A1A2F47760086F125 /* Products */,
+				61EA8CB21A2F491B0086F125 /* Playgrounds */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,12 +86,14 @@
 			isa = PBXGroup;
 			children = (
 				61EA8C8E1A2F47760086F125 /* AppDelegate.swift */,
+				61E449201A3C9819008B8938 /* FactBook.swift */,
 				61EA8C931A2F47760086F125 /* ViewController.swift */,
 				61EA8C951A2F47760086F125 /* Main.storyboard */,
 				61EA8C981A2F47760086F125 /* Images.xcassets */,
 				61EA8C9A1A2F47760086F125 /* LaunchScreen.xib */,
 				61EA8C901A2F47760086F125 /* fun_facts.xcdatamodeld */,
 				61EA8C8C1A2F47760086F125 /* Supporting Files */,
+				61A9564D1A3DDD0700C79903 /* ColorWheel.swift */,
 			);
 			path = "fun-facts";
 			sourceTree = "<group>";
@@ -113,6 +121,14 @@
 				61EA8CA61A2F47760086F125 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61EA8CB21A2F491B0086F125 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				61EA8CB11A2F49090086F125 /* Scratchpad.playground */,
+			);
+			name = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +233,9 @@
 			files = (
 				61EA8C941A2F47760086F125 /* ViewController.swift in Sources */,
 				61EA8C8F1A2F47760086F125 /* AppDelegate.swift in Sources */,
+				61E449211A3C9819008B8938 /* FactBook.swift in Sources */,
 				61EA8C921A2F47760086F125 /* fun_facts.xcdatamodeld in Sources */,
+				61A9564E1A3DDD0700C79903 /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +427,7 @@
 				61EA8CAD1A2F47760086F125 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61EA8CAE1A2F47760086F125 /* Build configuration list for PBXNativeTarget "fun-factsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +436,7 @@
 				61EA8CB01A2F47760086F125 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
